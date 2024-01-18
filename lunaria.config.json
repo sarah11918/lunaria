@@ -29,5 +29,6 @@
       "pattern": "src/content/docs/@lang/@path",
       "type": "universal"
     }
-  ]
+  ],
+  "ignoreKeywords": ["i18nIgnore", "en-only"]
 }
