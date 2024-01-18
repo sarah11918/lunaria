@@ -1,0 +1,33 @@
+{
+  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "repository": {
+    "name": "sarah11918/lunaria",
+    "branch": "main",
+    "hosting": "github" 
+  },
+  "defaultLocale": {
+    "label": "English",
+    "lang": "en"
+  },
+  "locales": [
+    {
+      "label": "French",
+      "lang": "fr"
+    },
+    {
+      "label": "简体中文",
+      "lang": "zh-ch"
+    },
+    {
+      "label": "العربية'",
+      "lang": "ar"
+    }
+  ],
+  "files": [
+    {
+      "location": "src/content/docs/**/*.mdx",
+      "pattern": "src/content/docs/@lang/@path",
+      "type": "universal"
+    }
+  ]
+}
